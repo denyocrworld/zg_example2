@@ -1,0 +1,35 @@
+name: virtual_gift_demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  zego_uikit_prebuilt_live_audio_room: ^2.17.0
+  zego_uikit: ^2.17.1
+  zego_express_engine: any
+
+  cupertino_icons: ^1.0.2
+
+  flutter_cache_manager: ^3.3.1
+  transparent_image: ^2.0.1
+  svgaplayer_flutter: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/gift/
